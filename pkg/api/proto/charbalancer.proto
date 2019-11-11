@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto;
+
+option java_multiple_files = true;
+option java_package = "com.blakekhan.charbalancer.client.proto";
+
+service CharBalancer {
+    rpc BalanceString(BalanceStringRequest) returns (BalanceStringResponse) {}
+}
+
+message BalanceStringRequest {
+    string data = 1;
+}
+
+message BalanceStringResponse {
+    bool balanced = 1;
+}
