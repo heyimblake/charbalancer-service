@@ -6,6 +6,9 @@
 *.dylib
 bin/
 
+# GoLand
+.idea/
+
 # Test binary, built with `go test -c`
 *.test
 
