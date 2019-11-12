@@ -4,6 +4,6 @@ CharBalancer is an application to verify if special characters in a given string
 
 ## More Details
 
-- You are viewing service/server backend repository, written in Go.
+- You are viewing the service's server repository, written in Go.
 - A Java client can be found [here](https://github.com/heyimblake/charbalancer-client-java).
 - Presently checks the following characters: `() {} <> []`
